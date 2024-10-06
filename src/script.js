@@ -778,8 +778,8 @@ if (isMovingTowardsPlanet) {
   requestAnimationFrame(animate);
   composer.render();
 }
-loadAsteroids('/asteroids/asteroidPack.glb', 1000, 130, 160);
-loadAsteroids('/asteroids/asteroidPack.glb', 3000, 352, 370);
+loadAsteroids('asteroidPack.glb', 1000, 130, 160);
+loadAsteroids('asteroidPack.glb', 3000, 352, 370);
 animate();
 
 window.addEventListener('mousemove', onMouseMove, false);
